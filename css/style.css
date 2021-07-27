@@ -1,0 +1,145 @@
+body{
+	font-size: 20px;
+	color:#3590f3;
+	background-color:#f1e3f3;
+}
+.title{
+	text-align:center;
+} 
+.education{
+  text-align: center;
+}
+.bio{
+  text-align:center;
+	color:#62bfed;
+
+}
+#header-nav{
+	background-color: #f1e3f3;
+	border-radius: 0;
+	border:0;
+
+}
+.navbar-brand {
+    padding-top: 50px;
+    width: min-content;
+  }
+.container-fluid{
+	align-content: center;
+}
+/* .navbar-brand {
+    padding-top: 50px;
+    width: min-content;
+    margin-right: 0px;
+} */
+
+.navbar-brand h1 { /* Website name */
+    font-size: 2em;
+    color: #3590f3;
+    font-family: 'Garamond', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #0D1821;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+	text-decoration: none;
+  color:#8fb8ed;
+}
+.navbar a:hover, .navbar a:focus, .navbar a:link {
+	text-decoration: none;
+}
+
+/*.navbar-brand{
+	padding-top:25px;
+	float:left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+	text-decoration: none;
+}*/
+#nav-list{
+	margin-top:10px;
+}
+#nav-list a{
+	text-align: center;
+}
+#nav-list a:hover{
+	background:#FFD553;
+}
+#nav-list a:hover, #nav-list a:focus, #nav-list a:link{
+	text-decoration: none;
+	float:right;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D353FF;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-header{
+	width:100%;
+}
+#dropdownMenuButton1{
+	float:right;
+}
+#hometile, #educationtile, #experiencetile, #skillstile{
+	text-decoration:none;
+	width:100%;
+	margin-bottom:15px;
+	position:relative;
+	overflow:hidden;
+}
+#home-tile:hover, #education-tile:hover, #experience-tile:hover, #skills-tile:hover{
+	box-shadow: 0 1px 5px 1px #1881f2;
+}
+#home-tile, #education-tile, #experience-tile, #skills-tile{
+	text-align:center;
+}
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c2bbf0;
+  bottom: 0px;
+  text-align: center;
+  width:100%;
+  font-size:13px;
+
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+  align-items: center;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+} 
+@media (max-width: 767px) {
+	.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 100%;
+  }
+}
